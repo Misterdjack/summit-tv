@@ -1,4 +1,8 @@
-(function($) {
+////////////////////
+// Custom Scripts //
+////////////////////
+
+$(document).on('ready', function(){
     "use strict";
 
     $('body').scrollspy({
@@ -31,4 +35,4 @@
        $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
     });
 
-})(jQuery);
+});
