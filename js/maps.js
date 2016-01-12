@@ -36,3 +36,12 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+$(document).on('ready', function(){
+
+    $(marker).on('click', function(){
+        
+    });
+
+
+});
