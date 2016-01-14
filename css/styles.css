@@ -56,6 +56,10 @@ p {
     margin-bottom: 20px;
 }
 
+.hero-logo {
+    padding: 2em;
+}
+
 .wide-space {
     letter-spacing: 1.6px;
 }
@@ -168,6 +172,10 @@ footer {
 
 
 @media(min-width:768px) {
+    /*.hero-logo {
+        padding: 3em;
+    }*/
+
     .navbar-default {
         border-color: transparent;
         background-color: transparent;
@@ -358,6 +366,10 @@ textarea {
 }
 
 @media(min-width:992px) {
+    .hero-logo {
+        padding: 4em;
+    }
+
     .feature {
         margin: 20px auto 0;
     }
