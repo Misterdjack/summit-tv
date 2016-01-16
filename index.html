@@ -8,7 +8,9 @@
     <meta name="author" content="">
     <link rel="icon" href="logos/mtn-blk.png">  
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <!-- Bootstrap CSS files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" />
@@ -31,9 +33,6 @@
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="#one">Intro</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#two">Highlights</a>
                     </li>
                     <li>
@@ -43,12 +42,15 @@
                         <a class="page-scroll" href="#four">Features</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#five">About</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#last">Contact</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
+                        <a class="page-scroll" data-toggle="modal" title="Summit TV" href="#aboutModal">About</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +59,7 @@
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <img class="img-responsive hero-logo" src="logos/logo-white-large.png" alt="Summit TV">
+                <img class="img-responsive hero-logo" src="logos/logo-white.png" alt="Summit TV">
                 <h1> Custom television, audio and smart-home solutions</h1>
                 <h4>Providing all your smart home needs</h4>
                 <hr>
@@ -69,25 +71,11 @@
             <source src='goldentakeoff2.webm' type='video/webm' />Your browser does not support the video tag. Please upgrade your browser.
         </video>
     </header>
-    <section class="bg-primary" id="one">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                    <h2 class="margin-top-0 text-primary">Built On The Bootstrap Grid</h2>
-                    <br>
-                    <p class="text-faded">
-                        Bootstrap's responsive grid comes in 4 sizes or "breakpoints": tiny (xs), small(sm), medium(md) and large(lg). These 4 grid sizes enable you create responsive layouts that behave accordingly on different devices.
-                    </p>
-                    <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
     <section id="two">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
+                    <h2 class="margin-top-0 text-primary">Services</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -95,24 +83,53 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Responsive</h3>
-                        <p class="text-muted">Your site looks good everywhere</p>
+                    <div class="card panel">
+                      <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                      <div class="panel-heading text-primary"><h3>Heading</h3></div>
+                      <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rem labore, officia. Quis facilis facere architecto quae eaque quidem maxime cum voluptates voluptate assumenda a molestias impedit commodi, odio nisi.
+                      </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
-                        <h3>Customizable</h3>
-                        <p class="text-muted">Easy to theme and customize with SASS</p>
+                    <div class="card panel">
+                      <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                      <div class="panel-heading text-primary"><h3>Heading</h3></div>
+                      <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rem labore, officia. Quis facilis facere architecto quae eaque quidem maxime cum voluptates voluptate assumenda a molestias impedit commodi, odio nisi.
+                      </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Consistent</h3>
-                        <p class="text-muted">A mature, well-tested, stable codebase</p>
+                    <div class="card panel">
+                      <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                      <div class="panel-heading text-primary"><h3>Heading</h3></div>
+                      <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rem labore, officia. Quis facilis facere architecto quae eaque quidem maxime cum voluptates voluptate assumenda a molestias impedit commodi, odio nisi.
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="card panel">
+                      <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                      <div class="panel-heading text-primary"><h3>Heading</h3></div>
+                      <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rem labore, officia. Quis facilis facere architecto quae eaque quidem maxime cum voluptates voluptate assumenda a molestias impedit commodi, odio nisi.
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="card panel">
+                      <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                      <div class="panel-heading text-primary"><h3>Heading</h3></div>
+                      <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rem labore, officia. Quis facilis facere architecto quae eaque quidem maxime cum voluptates voluptate assumenda a molestias impedit commodi, odio nisi.
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="card panel">
+                      <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                      <div class="panel-heading text-primary"><h3>Heading</h3></div>
+                      <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rem labore, officia. Quis facilis facere architecto quae eaque quidem maxime cum voluptates voluptate assumenda a molestias impedit commodi, odio nisi.
+                      </div>
                     </div>
                 </div>
             </div>
@@ -265,36 +282,20 @@
             </div>
         </div>
     </section>
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2 class="text-primary">Get Started</h2>
-                <a href="http://www.bootstrapzero.com/bootstrap-template/landing-zero" target="ext" class="btn btn-default btn-lg wow flipInX">Free Download</a>
-            </div>
-            <br>
-            <hr/>
-            <br>
+    <section class="bg-primary" id="five">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="row">
-                        <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-html5-outline" title="html 5"></i>
-                        </div>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-sass" title="sass"></i>
-                        </div>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-javascript-outline" title="javascript"></i>
-                        </div>
-                        <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-css3-outline" title="css 3"></i>
-                        </div>
-                    </div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+                    <h2 class="margin-top-0 text-primary">About</h2>
+                    <br>
+                    <p class="text-faded">
+                        Bootstrap's responsive grid comes in 4 sizes or "breakpoints": tiny (xs), small(sm), medium(md) and large(lg). These 4 grid sizes enable you create responsive layouts that behave accordingly on different devices.
+                    </p>
+                    <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
                 </div>
             </div>
         </div>
-    </aside>
+    </section>
     <section id="last">
         <div class="container">
             <div class="row">

@@ -57,7 +57,7 @@ p {
 }
 
 .hero-logo {
-    padding: 2em;
+    padding: 1.5em;
 }
 
 .wide-space {
@@ -93,6 +93,10 @@ p {
 
 .text-primary {
     color: #9c27b0;
+}
+
+.card {
+    background-color: #333;
 }
 
 .modal-content {
@@ -360,10 +364,10 @@ textarea {
     margin-top: 0;
 }
 
-.feature {
+/*.feature {
     margin: 50px auto 0;
     max-width: 400px;
-}
+}*/
 
 @media(min-width:992px) {
     .hero-logo {
