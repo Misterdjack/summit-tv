@@ -99,6 +99,10 @@ p {
     background-color: #333;
 }
 
+.img-responsive {
+    margin: 0 auto;
+}
+
 .modal-content {
     background-color: #1d1d1d;
 }
@@ -176,9 +180,6 @@ footer {
 
 
 @media(min-width:768px) {
-    /*.hero-logo {
-        padding: 3em;
-    }*/
 
     .navbar-default {
         border-color: transparent;
@@ -370,6 +371,11 @@ textarea {
 }*/
 
 @media(min-width:992px) {
+    .card {
+        background-color: #333;
+        min-height: 516.313px;
+    }
+    
     .hero-logo {
         padding: 4em;
     }
