@@ -373,9 +373,15 @@ textarea {
 @media(min-width:992px) {
     .card {
         background-color: #333;
-        min-height: 516.313px;
+        min-height: 606.313px;
     }
-    
+
+    .panel-heading .panel-body {
+        float:none;
+        display:inline-block;
+        vertical-align:middle;
+    }
+
     .hero-logo {
         padding: 4em;
     }
