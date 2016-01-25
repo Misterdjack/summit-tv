@@ -56,6 +56,10 @@ p {
     margin-bottom: 20px;
 }
 
+.phone {
+    font-size: 19px;
+}
+
 .hero-logo {
     padding: 1.5em;
 }
